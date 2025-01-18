@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Simon Says game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css\rules.css">
+    </head>
+    <body>
+        <h2>Simon Says Game Rules</h2>
+        <div class="button-container">
+            <a class="fancy" href="#" id="goBack">
+                <span class="top-key"></span>
+                <span class="text">Start Game</span>
+                <span class="bottom-key-1"></span>
+                <span class="bottom-key-2"></span>
+              </a>
+            </div>
+        <div class="timeline">
+            <div class="timeline__event animated fadeInUp delay-3s timeline__event--type1">
+                <div class="timeline__event__icon">
+                    <i class="lni-play"></i>
+                    <div class="timeline__event__date">
+                        Step 1
+                    </div>
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        Start the Game
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>Click the "Start" button to begin the game.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+                <div class="timeline__event__icon">
+                    <i class="lni-keyboard"></i>
+                    <div class="timeline__event__date">
+                        Step 2
+                    </div>
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        Press Any Key
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>When prompted, press any key to continue to the next screen.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                <div class="timeline__event__icon">
+                    <i class="lni-eye"></i>
+                    <div class="timeline__event__date">
+                        Step 3
+                    </div>
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        Observe the Tile
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>Focus and observe which tile among the 55 tiles pops up.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline__event animated fadeInUp timeline__event--type1">
+                <div class="timeline__event__icon">
+                    <i class="lni-pointer"></i>
+                    <div class="timeline__event__date">
+                        Step 4
+                    </div>
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        Click the Tiles
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>Click the popped tiles in the correct order. A green circle will appear if the correct tile is clicked, and the background will turn red if it's incorrect.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+                <div class="timeline__event__icon">
+                    <i class="lni-trophy"></i>
+                    <div class="timeline__event__date">
+                        Step 5
+                    </div>
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        Level Completion
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>Complete Level 1 to advance to Level 2, where the difficulty increases. If you fail at any level, the game ends.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline__event animated fadeInUp timeline__event--type1">
+                <div class="timeline__event__icon">
+                    <i class="lni-reload"></i>
+                    <div class="timeline__event__date">
+                        Step 6
+                    </div>
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        Restart Game
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>Click any key to restart the game after a failure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            document.getElementById("goBack").addEventListener("click", function() {
+                window.location.href = "game.html";
+            });
+        </script>
+    </body>
+</html>
+

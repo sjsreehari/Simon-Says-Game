@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon Says Game</title>
+  <link rel="stylesheet" href="css\landingpage.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Simon Says Game</h1>
+    <div class="landing-page">
+      <div class="button-container">
+        <button class="btn-17" id="startGame">
+          <span class="text-container">
+            <span class="text">Start</span>
+          </span>
+        </button>
+        <button class="btn" id="viewRules">
+          Rules
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("startGame").addEventListener("click", function() {
+      window.location.href = "game.html";
+    });
+
+    document.getElementById("viewRules").addEventListener("click", function() {
+      window.location.href = "rules.html";
+    });
+  </script>
+</body>
+</html>

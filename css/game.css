@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+:root {
+    --blue: #053464;
+    --middle-blue : #52799a;
+    --light-blue : #abc5cd; 
+    --white: #f0f7f9;
+    --yellow: #f6bf15;
+}
+body{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--blue);
+    color: var(--white);
+    overflow: hidden;
+}
+h3{
+    font-weight: 900;
+}
+.start-btn{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding: 2.5px;
+    font-size: 20px;
+    height: 35px;
+    width: 85px;
+    border-radius: 10px;
+    border: 1px solid var(--white);
+    margin-bottom: 40px;
+    color: var(--blue);
+    background-color: var(--white);
+}
+.btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    border: 2px solid var(--white);
+    border-radius: 10px;
+    margin: 10px;
+}
+.red{ background-color: rgb(245, 63, 99); }
+.blue{ background-color: rgb(98, 145, 233); }
+.purple{ background-color:rgb(155, 89, 222); }
+.yellow{ background-color: rgb(245, 245, 86); }
+.green{ background-color: green; }
+.orange{ background-color: orange; }
+.pink{ background-color: pink; }
+.cyan{ background-color: cyan; }
+.magenta{ background-color: magenta; }
+.lime{ background-color: lime; }
+.brown{ background-color: brown; }
+.navy{ background-color: navy; }
+.olive{ background-color: olive; }
+.teal{ background-color: teal; }
+.maroon{ background-color: maroon; }
+.silver{ background-color: silver; }
+.gold{ background-color: gold; }
+.bronze{ background-color: bronze; }
+.salmon{ background-color: salmon; }
+.khaki{ background-color: khaki; }
+.coral{ background-color: coral; }
+.indigo{ background-color: indigo; }
+.violet{ background-color: violet; }
+.amber{ background-color: amber; }
+.azure{ background-color: azure; }
+.flash{ background-color: var(--white); }
+.userflash{ background-color: green; }
+.hidden{ display: none; }
+.visible{ display: inline-block; }
+@media (max-width: 610px){
+    .btn{
+        height: 75px;
+        width: 75px;
+        border-radius: 5px;
+    }
+}
+@media (max-width: 360px){
+    .btn{
+        height: 55px;
+        width: 55px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+}
